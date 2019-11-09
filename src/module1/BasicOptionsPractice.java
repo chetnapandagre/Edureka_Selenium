@@ -8,6 +8,7 @@ public class BasicOptionsPractice {
 		// TODO Auto-generated method stub
 		System.setProperty("webdriver.chrome.driver", "G:\\Installations\\Drivers\\chromedriver.exe");
 				
+		System.out.println("Hello WORLD4");
 WebDriver driver = new ChromeDriver();
 driver.get("https://seleniumautomationpractice.blogspot.com");
 driver.manage().window().maximize();
